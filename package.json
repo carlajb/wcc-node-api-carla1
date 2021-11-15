@@ -1,0 +1,24 @@
+{
+  "name": "wcc-node-api-carla1",
+  "version": "1.0.0",
+  "description": "npm install init",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install express",
+    "start": "node index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlajb/wcc-node-api-carla1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlajb/wcc-node-api-carla1/issues"
+  },
+  "homepage": "https://github.com/carlajb/wcc-node-api-carla1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
