@@ -7,10 +7,10 @@ const sequelizeDatabase = new Sequelize(databaseConfig.connectionsStringUrl,sequ
 
 const database = {
     Sequelize: Sequelize,
-    sequelizeDatabase: sequelizeDatabase
+    sequelizeDatabase: sequelizeDatabase,
 };
 
-const artigosModel = require("./artigos.model")
+const artigosModel = require("./artigos.model.js")
 database.artigos =artigosModel(sequelizeDatabase, Sequelize);
 
 

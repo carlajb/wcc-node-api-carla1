@@ -21,10 +21,12 @@ DELETE
 */
 
 module.exports = (app) => {
-    const artigosController =require("../controllers/artigos.controller");
+    const artigosController = require("../controllers/artigos.controller");
     let router = require("express").Router();
 
     router.post("/", artigosController.create);
-    //router.get("/", usersController.findAll);
+
+    router.get("/", artigosController.findAll);
+
     app.use("/artigos", router);
 };
